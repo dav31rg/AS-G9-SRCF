@@ -1,0 +1,22 @@
+{
+  "name": "as-g9-srcf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

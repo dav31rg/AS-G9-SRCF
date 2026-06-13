@@ -4,6 +4,9 @@ export class Reserva {
         public cliente: string,
         public cancha: string,
         public fecha: string,
-        public hora: string
+        public hora: string,
+        public cantidadHoras: number,
+        public precioTotal: number
     ) {}
 }
+

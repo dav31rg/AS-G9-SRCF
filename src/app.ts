@@ -39,12 +39,22 @@ const fecha =
 const hora =
     prompt("Hora (HH:mm): ");
 
+const cantidadHoras = Number(
+    prompt("Cantidad de horas: ")
+);
+
+const precioTotal = Number(
+    prompt("Precio total: ")
+);
+
 const reserva = new Reserva(
     1,
     nombre,
     canchas[opcion - 1],
     fecha,
-    hora
+    hora,
+    cantidadHoras,
+    precioTotal
 );
 
 service.registrarReserva(reserva);
